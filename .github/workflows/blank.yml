@@ -23,7 +23,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: vikrant
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
         with: 
           repository: VikrantChugh/testts
           ref: 'master'
