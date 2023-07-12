@@ -25,7 +25,7 @@ jobs:
       - name: vikrant
         uses: actions/checkout@v2
         with: 
-          repository: VikrantChugh/tasks
+          repository: VikrantChugh/testts
           ref: 'master'
           token: ${{ secrets.TOKEN_GITHUB }}
           
